@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": "2",
+      "caption": "check",
+      "image_url": "https://i.ibb.co/4ZTkNhR/image4.jpg"
+    },
+    {
+      "id": "3",
+      "caption": "nature",
+      "image_url": "https://i.ibb.co/72SgdS3/image1.jpg"
+    },
+    {
+      "id": "4",
+      "caption": "hjbjhn",
+      "image_url": "https://i.ibb.co/72SgdS3/image1.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -12,7 +12,7 @@ let create_button=document.getElementById("create_btn");
 create_button.onclick=()=>{
     createpost();
 }
-
+create_button.disabled=true;
 
 let inp_image=document.getElementById("image");
 
@@ -51,6 +51,10 @@ const handleImage=async ()=>{
     //console.log("data",data);
     image_url=data.data.display_url;
     console.log("image-url",image_url);
+
+    if(image_url!=null){
+        create_button.disabled=false;
+    }
     
 }
 
